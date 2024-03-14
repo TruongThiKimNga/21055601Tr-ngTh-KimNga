@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.divider{
+  border :1px solid red;
+  margin-top: 5px;}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+h1 {
+  color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #520052;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.successMessage {
+    margin-top: 20px;
+    color: green;
+}
